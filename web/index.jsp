@@ -12,5 +12,7 @@
   </head>
   <body>
   <h1>Md Tajul Islam</h1>
+    <button><a href="firstS">SurvletOne</a>></button>
+    <button><a href="secondS">SurvletTwo</a></button>
   </body>
 </html>

@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Reshma</title>
+    <title>Tajul</title>
   </head>
   <body>
-  <h1>Reshma Khanki Magi</h1>
+  <h1>Md Tajul Islam</h1>
+    <button><a href="firstS">SurvletOne</a>></button>
+    <button><a href="secondS">SurvletTwo</a></button>
   </body>
 </html>

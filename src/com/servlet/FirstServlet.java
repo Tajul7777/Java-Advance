@@ -1,6 +1,7 @@
 package com.servlet;
 import javax.servlet.*;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class FirstServlet implements Servlet{
     //Life cycle methods
@@ -14,6 +15,10 @@ public class FirstServlet implements Servlet{
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("Servleting....");
+        // Set the content type
+        servletResponse.setContentType("text/html");
+        PrintWriter out = servletResponse.getWriter();
+        out.println("<h4>Servlet created using implements Servlet!!</h4>");
     }
 
     @Override

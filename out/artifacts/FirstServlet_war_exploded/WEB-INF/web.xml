@@ -8,8 +8,16 @@
         <servlet-name>firstS</servlet-name>
         <servlet-class>com.servlet.FirstServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>secondS</servlet-name>
+        <servlet-class>com.servlet.genericServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>firstS</servlet-name>
-        <url-pattern>/web</url-pattern>
+        <url-pattern>/firstS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>secondS</servlet-name>
+        <url-pattern>/secondS</url-pattern>
     </servlet-mapping>
 </web-app>
